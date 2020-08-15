@@ -122,9 +122,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [
+STATIC_ROOT = (
     STATIC_DIR,
-]
+)
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
