@@ -19,7 +19,6 @@ def get_sets(request, cat_id):
     
     sets = Sets.objects.filter(set_category=cat_id)
     
-    print('sss',sets)
     context={
         'sets':sets
     }
