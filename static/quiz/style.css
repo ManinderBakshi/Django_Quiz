@@ -1,0 +1,50 @@
+
+.category{
+    background-color: #19cc9c;
+    padding: 20px;
+    border-radius: 50%;
+    border-style: groove;
+    height: 80px;
+    margin-bottom: 35px;
+    height: 150px;
+    font-family: 'Ultra', serif;
+    font-size: 3.5em;
+}
+.category:hover{
+    background-color: #4beec2;
+}
+.sets{
+    background-color: #19cc9c;
+    padding: 20px;
+    border-style: groove;
+    height: 80px;
+    margin-bottom: 35px;
+    height: 150px;
+    font-family: 'Ultra', serif;
+    font-size: 3.5em;
+}
+.sets:hover{
+    background-color: #4beec2;
+}
+.li{
+    background-color: #101357;
+}
+
+.navbar-brand {
+    font-family: 'Libre Caslon Display', serif;
+}
+.navbar-text {
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 1.5em;
+}
+
+.navbar li a{
+    font-family: 'Pangolin', cursive;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
+.heading{
+    font-family: 'Kalam', cursive;
+
+}

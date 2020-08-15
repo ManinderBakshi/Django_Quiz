@@ -1,0 +1,13 @@
+{% extends 'quiz/base.html' %}
+{% load static %}
+{% block body %}
+
+
+<h1 class="text-center heading">Welcome To Django Quiz Game!</h1>
+<br>
+<hr>
+<div class="text-center">
+  <a class="btn btn-info btn-lg" href="{% url 'quiz:categories' %}" style="color: rgb(3, 3, 3);">Click To Play</a>
+</div>
+
+{% endblock %}
